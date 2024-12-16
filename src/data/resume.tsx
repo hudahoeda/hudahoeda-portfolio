@@ -23,6 +23,11 @@ export const DATA = {
     "Machine Learning",
     "Deep Learning",
     "Computer Vision",
+    "NextJS",
+    "Typescript",
+    "TailwindCSS",
+    "React",
+    "Supabase",
     "N8N",
     "Airtable",
     "Coda",
@@ -165,6 +170,8 @@ export const DATA = {
         "Streamlit",
         "OpenAI API",
         "Langfuse",
+        "Docker",
+        "Coolify"
       ],
       links: [
         {
@@ -204,33 +211,51 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      title: "Certificate Verification Platform",
+      href: "https://certificates.revou.tech",
+      dates: "Nov 2024 - Present",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "Developed a platform to verify the authenticity of certificates issued by RevoU. The platform allows verification through certificate ID and name lookup. The dashboard displays comprehensive student scores and tracks the verification process status, providing insights into certificate authenticity and academic performance.",
       technologies: [
-        "Next.js",
+        "NextJS",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
         "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "React",
+        "Supabase",
+        "Shadcn",
+        "Docker",
+        "Coolify"
       ],
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "https://certificates.revou.tech",
           icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
+        }
+       ],
+      image: "https://qejdfxhkxzznyloimeja.supabase.co/storage/v1/object/public/background/certificates.png?t=2024-12-16T13%3A44%3A32.932Z",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "",
+    },
+    {
+      title: "RAG Pipeline",
+      href: "",
+      dates: "Nov 2024 - Present",
+      active: true,
+      description:
+        "Built a document processing pipeline that converts internal documents (PDF, DOCX, PPTX, TXT) into vector embeddings for storage in a vector database. This enables AI assistants to accurately retrieve and reference information from our internal knowledge base when responding to queries using Retrieval Augmented Generation (RAG).",
+      technologies: [
+        "Pinecone",
+        "Flowise",
+        "N8N",
+        "Python",
+        "OpenAI API",
+        "Docling"
+      ],
+      image: "https://qejdfxhkxzznyloimeja.supabase.co/storage/v1/object/public/background/n8n%20logo.jpg?t=2024-12-16T13%3A38%3A52.547Z",
+      video:
+        "",
     },
   ]
 } as const;
