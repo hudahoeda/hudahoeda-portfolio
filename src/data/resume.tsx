@@ -253,6 +253,7 @@ export const DATA = {
         "OpenAI API",
         "Docling"
       ],
+      links: [],
       image: "https://qejdfxhkxzznyloimeja.supabase.co/storage/v1/object/public/background/n8n%20logo.jpg?t=2024-12-16T13%3A38%3A52.547Z",
       video:
         "",
