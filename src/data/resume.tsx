@@ -11,7 +11,7 @@ export const DATA = {
     "Lifelong learner who currently help other people to learn and grow.",
   summary:
     "Start working on 2023 in [Grab](https://grab.com/id) as Administration Support Specialist, and now working at [RevoU](https://revou.co) as a Jr. System Development and Automation Executive, supporting people to learn and grow.",
-  avatarUrl: "/me.jpg",
+  avatarUrl: "https://qejdfxhkxzznyloimeja.supabase.co/storage/v1/object/public/background/huda.JPG?t=2024-12-17T01%3A56%3A17.708Z",
   skills: [
     "Python",
     "Streamlit",
