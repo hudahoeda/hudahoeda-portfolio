@@ -11,7 +11,7 @@ export const DATA = {
     "Lifelong learner who currently help other people to learn and grow.",
   summary:
     "Start working on 2023 in [Grab](https://grab.com/id) as Administration Support Specialist, and now working at [RevoU](https://revou.co) as a Jr. System Development and Automation Executive, supporting people to learn and grow.",
-  avatarUrl: "https://qejdfxhkxzznyloimeja.supabase.co/storage/v1/object/public/background/huda.JPG?t=2024-12-17T01%3A56%3A17.708Z",
+  avatarUrl: "https://res.cloudinary.com/dx3b3otna/image/upload/v1741859689/huda_rcz9ds.jpg",
   skills: [
     "Python",
     "Streamlit",
@@ -187,6 +187,31 @@ export const DATA = {
         "",
     },
     {
+      title: "HTML2PDF",
+      href: "https://github.com/hudahoeda/html2pdf-fastapi",
+      dates: "Jan 2025 - Present",
+      active: true,
+      description:
+        "Developed a platform to convert HTML to PDF using FastAPI and Python. A FastAPI-based service that converts HTML content to PDF using Selenium and Chrome headless browser. This service provides high-fidelity PDF generation with support for modern web features, custom styling, and various output options.",
+      technologies: [
+        "FastAPI",
+        "Python",
+        "Chromium",
+        "Selenium",
+        "Docker",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/hudahoeda/html2pdf-fastapi",
+          icon: <Icons.github className="size-3" />,
+        }
+       ],
+      image: "https://res.cloudinary.com/dx3b3otna/image/upload/v1741860440/0dc36c77-3c30-4ff9-bedb-56068d4d8d40.png",
+      video:
+        "",
+    },
+    {
       title: "Certificate Verification Platform",
       href: "https://certificates.revou.tech",
       dates: "Nov 2024 - Present",
@@ -210,7 +235,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         }
        ],
-      image: "https://qejdfxhkxzznyloimeja.supabase.co/storage/v1/object/public/background/certificates.png?t=2024-12-16T13%3A44%3A32.932Z",
+      image: "https://res.cloudinary.com/dx3b3otna/image/upload/v1741860045/73daa645-f952-480d-b592-328ea07adc3e.png",
       video:
         "",
     },
@@ -242,7 +267,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://qejdfxhkxzznyloimeja.supabase.co/storage/v1/object/public/background/RevoAI%20Coach.mp4",
+        "https://res.cloudinary.com/dx3b3otna/video/upload/v1741860121/RevoAI_20Coach_yjfb1i.mp4",
     },
     {
       title: "DALA (Data Analytics Learning Assistant)",
@@ -272,7 +297,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://qejdfxhkxzznyloimeja.supabase.co/storage/v1/object/public/background/DALA.mp4?t=2024-12-16T11%3A32%3A32.991Z",
+      video: "https://res.cloudinary.com/dx3b3otna/video/upload/v1741860175/DALA.mp4_oyfnd4.mp4",
     },
     {
       title: "RevoU Job Tracker",
@@ -293,7 +318,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         }
        ],
-      image: "https://qejdfxhkxzznyloimeja.supabase.co/storage/v1/object/public/background/Job%20Tracker.png?t=2024-12-16T11%3A46%3A15.315Z",
+      image: "https://res.cloudinary.com/dx3b3otna/image/upload/v1741860201/Job_20Tracker.png_oghxew.png",
       video: "",
     },
     {
@@ -312,7 +337,7 @@ export const DATA = {
         "Docling"
       ],
       links: [],
-      image: "https://qejdfxhkxzznyloimeja.supabase.co/storage/v1/object/public/background/n8n%20logo.jpg?t=2024-12-16T13%3A38%3A52.547Z",
+      image: "https://res.cloudinary.com/dx3b3otna/image/upload/v1741860232/n8n_20logo.jpg_sly4ey.jpg",
       video:
         "",
     }
