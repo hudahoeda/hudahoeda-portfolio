@@ -19,6 +19,32 @@ export const metadata: Metadata = {
     template: `%s | ${DATA.name}`,
   },
   description: DATA.description,
+  icons: {
+    icon: "/favicon.ico",
+  },
+  keywords: [
+    DATA.name,
+    "portfolio",
+    "developer",
+    "software engineer",
+    "AI Developer",
+    "Full Stack Developer",
+    "Ahmad Miftahul Huda",
+    "Huda",
+    "hudahoeda",
+    "RevoU",
+    "RevoU Job Tracker",
+    "Kalibra Resumetrics"
+    // Add more relevant keywords based on your profile
+  ],
+  authors: [{ name: DATA.name, url: DATA.url }],
+  creator: DATA.name,
+  publisher: DATA.name,
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   openGraph: {
     title: `${DATA.name}`,
     description: DATA.description,
@@ -27,12 +53,11 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
     images: [{
-        url: DATA.avatarUrl,
-        width: 300,
-        height: 300,
-        alt: DATA.name,
-      },
-    ],
+      url: DATA.avatarUrl,
+      width: 300,
+      height: 300,
+      alt: DATA.name,
+    }],
   },
   robots: {
     index: true,
@@ -44,15 +69,23 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
+    nocache: false,
   },
   twitter: {
     title: `${DATA.name}`,
     card: "summary_large_image",
+    description: DATA.description,
+    creator: "@yourtwitterhandle", // Add your Twitter handle if available
+    images: [DATA.avatarUrl],
+  },
+  alternates: {
+    canonical: DATA.url,
   },
   verification: {
-    google: "",
+    google: "", // Add your Google Search Console verification code
     yandex: "",
   },
+  category: "portfolio",
 };
 
 export default function RootLayout({
@@ -62,6 +95,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="shortcut icon" href="/favicon.ico" />
+      </head>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6",
