@@ -129,6 +129,92 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Kalibra Resumetrics",
+      href: "https://resumetrics.kalibra.onemoment.tech/",
+      dates: "Feb 2025 - Present",
+      active: true,
+      description:
+        "Developed a platform for Company to analyze the resume of the candidate and provide insights to the company using the help of AI. The platform allows company to analyze the resume and select the best candidate. The platform built using NextJS, Typescript, TailwindCSS, React, Supabase, Shadcn, Docker, and Coolify.",
+      technologies: [
+        "NextJS",
+        "Typescript",
+        "TailwindCSS",
+        "OpenAI API",
+        "Langchain",
+        "React",
+        "Supabase",
+        "Shadcn",
+        "Docker",
+        "Coolify"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://resumetrics.kalibra.onemoment.tech/",
+          icon: <Icons.globe className="size-3" />,
+        }
+       ],
+      image: "https://res.cloudinary.com/dx3b3otna/image/upload/v1741858834/9445aaba-5b6b-4d42-b7f0-bee1d904e41c.png",
+      video:
+        "",
+    },
+    {
+      title: "AI Interview Platform",
+      href: "https://interview.mydigitalacademy.co.id",
+      dates: "Jan 2025 - Present",
+      active: true,
+      description:
+        "Developed an AI-Powered Interview Platform that helps My Digital Academy select the best candidate for the job. Using NEXT.js as the front end and FastAPI as the backend. The platform allows candidates to answer questions and receive feedback from AI. The feedback then used to determine candidate's score and rank.",
+      technologies: [
+        "NextJS",
+        "Typescript",
+        "TailwindCSS",
+        "React",
+        "FastAPI",
+        "OpenAI API",
+        "Docker",
+        "Coolify"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://interview.mydigitalacademy.co.id",
+          icon: <Icons.globe className="size-3" />,
+        }
+       ],
+      image: "https://res.cloudinary.com/dx3b3otna/image/upload/v1741858287/c6082f34-87a1-42d3-948b-5ee2219140c0.png",
+      video:
+        "",
+    },
+    {
+      title: "Certificate Verification Platform",
+      href: "https://certificates.revou.tech",
+      dates: "Nov 2024 - Present",
+      active: true,
+      description:
+        "Developed a platform to verify the authenticity of certificates issued by RevoU. The platform allows verification through certificate ID and name lookup. The dashboard displays comprehensive student scores and tracks the verification process status, providing insights into certificate authenticity and academic performance.",
+      technologies: [
+        "NextJS",
+        "Typescript",
+        "TailwindCSS",
+        "React",
+        "Supabase",
+        "Shadcn",
+        "Docker",
+        "Coolify"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://certificates.revou.tech",
+          icon: <Icons.globe className="size-3" />,
+        }
+       ],
+      image: "https://qejdfxhkxzznyloimeja.supabase.co/storage/v1/object/public/background/certificates.png?t=2024-12-16T13%3A44%3A32.932Z",
+      video:
+        "",
+    },
+    {
       title: "Revo AI Coach",
       href: "https://ai.revou.tech",
       dates: "Jul 2024 - Present",
@@ -211,34 +297,6 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Certificate Verification Platform",
-      href: "https://certificates.revou.tech",
-      dates: "Nov 2024 - Present",
-      active: true,
-      description:
-        "Developed a platform to verify the authenticity of certificates issued by RevoU. The platform allows verification through certificate ID and name lookup. The dashboard displays comprehensive student scores and tracks the verification process status, providing insights into certificate authenticity and academic performance.",
-      technologies: [
-        "NextJS",
-        "Typescript",
-        "TailwindCSS",
-        "React",
-        "Supabase",
-        "Shadcn",
-        "Docker",
-        "Coolify"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://certificates.revou.tech",
-          icon: <Icons.globe className="size-3" />,
-        }
-       ],
-      image: "https://qejdfxhkxzznyloimeja.supabase.co/storage/v1/object/public/background/certificates.png?t=2024-12-16T13%3A44%3A32.932Z",
-      video:
-        "",
-    },
-    {
       title: "RAG Pipeline",
       href: "",
       dates: "Nov 2024 - Present",
@@ -257,6 +315,6 @@ export const DATA = {
       image: "https://qejdfxhkxzznyloimeja.supabase.co/storage/v1/object/public/background/n8n%20logo.jpg?t=2024-12-16T13%3A38%3A52.547Z",
       video:
         "",
-    },
+    }
   ]
 } as const;
