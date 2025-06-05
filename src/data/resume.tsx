@@ -101,10 +101,10 @@ export const DATA = {
       href: "https://pln.co.id",
       badges: [],
       location: "Hybrid",
-      title: "Data Consultant",
+      title: "Internship",
       logoUrl: "https://upload.wikimedia.org/wikipedia/commons/2/20/Logo_PLN.svg",
-      start: "Oct 2023",
-      end: "Jan 2024",
+      start: "May 2023",
+      end: "Jun 2023",
       description:
         "Architected and build pipeline to identify remote building that need access to electricity by utilizing machine learning result from Open Building Dataset and geospatial data. Able to identify 10.000+ building in Malang that need access to electricity.",
     },
